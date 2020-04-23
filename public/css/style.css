@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav Bar */
+.nav-bar {
+  background-color: #f5f5f5;
+}
+
+.nav-top {
+  background-color: #f6f7f8;
+  color: #222;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+  text-transform: uppercase;
+}
+.guidance {
+  font-size: 14px;
+}
+.ship-details {
+  font-weight: 500;
+}
+.signin {
+  display: flex;
+  font-size: 14px;
+}
+.signin a {
+  margin: 0 30px;
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+.logo {
+  background-image: url(../img/logo.png);
+  background-position: center;
+  width: 140px;
+  height: 78px;
+  background-size: cover;
+  cursor: pointer;
+}
+.search-bar {
+  align-items: center;
+}
+.search-bar i {
+  margin: 10px;
+  color: #222;
+  cursor: pointer;
+}
+.search-bar input {
+  width: 600px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+  background-color: #222;
+}
+.menu a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+/* Home */
+
+/* Bikes Page */
+
+.container {
+  padding: 0 150px;
+  background-color: #f5f5f5;
+}
+.container h5 {
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+.hero-wrapper {
+  position: relative;
+}
+.hero-image {
+  background-image: url(../img/bikesbg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  filter: brightness(40%);
+  -webkit-filter: brightness(40%);
+}
+.hero-image-text h2 {
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  font-size: 36px;
+  color: white;
+  text-transform: uppercase;
+}
+.container-div {
+  display: flex;
+}
+.container-left {
+  width: 20%;
+  border-right: 1px solid rgba(128, 128, 128, 0.375);
+  padding: 0 30px;
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+.shortcut h3 {
+  font-size: 16px;
+}
+.shortcut p {
+  font-size: 12px;
+  color: gray;
+}
+.bike-category {
+  padding: 10px;
+}
+.category-dropdown {
+  padding: 10px 20px;
+}
+.category-dropdown ul {
+  list-style: none;
+  font-size: 14px;
+}
+.container-right {
+  margin: 40px 70px;
+}
+.container-right h3 {
+  font-size: 30px;
+}
+.bike-divisions {
+  background-color: rgb(240, 240, 240);
+  /* This bg is perfect */
+}
