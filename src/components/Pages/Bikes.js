@@ -1,17 +1,13 @@
 import React, { Component } from "react";
+import Header from "../Common/Header";
+import image from "../assets/img/bikes-bg.jpg";
 
 class Bikes extends Component {
   render() {
     return (
       <div>
         <div className="container">
-          <h5>Shop/Bike</h5>
-          <div className="hero-wrapper">
-            <div className="hero-image"></div>
-            <div className="hero-image-text">
-              <h2>Bikes</h2>
-            </div>
-          </div>
+          <Header title="bikes" image={image} />
           <div className="container-div">
             <div className="container-left">
               <div className="shortcut">
@@ -62,7 +58,7 @@ class Bikes extends Component {
               <div className="bike-type-container">
                 <div className="bike-type-name">
                   <h3>Mountain</h3>
-                  <div className="bike-divisions">
+                  <div className="bike-model-wrapper">
                     {/* Add the details of the bikes of the bike-type-name */}
                   </div>
                 </div>
