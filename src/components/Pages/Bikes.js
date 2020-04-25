@@ -32,8 +32,12 @@ class Bikes extends Component {
                 <h3>Category</h3>
                 <div className="bikes-category">
                   <div className="bike-category">
-                    <h4>Mountain</h4>
-
+                    <Link
+                      to="/mountain"
+                      style={{ textDecoration: "none", color: "#222" }}
+                    >
+                      <h4>+Mountain</h4>
+                    </Link>
                     <div className="category-dropdown">
                       <ul>
                         <Link
@@ -70,7 +74,12 @@ class Bikes extends Component {
                     </div>
                   </div>
                   <div className="bike-category">
-                    <h4>BMX</h4>
+                    <Link
+                      to="/bmx"
+                      style={{ textDecoration: "none", color: "#222" }}
+                    >
+                      <h4>+BMX</h4>
+                    </Link>
                     <div className="category-dropdown">
                       <ul>
                         <Link
@@ -83,8 +92,12 @@ class Bikes extends Component {
                     </div>
                   </div>
                   <div className="bike-category">
-                    <h4>Electric</h4>
-
+                    <Link
+                      to="/electric"
+                      style={{ textDecoration: "none", color: "#222" }}
+                    >
+                      <h4>+Electric</h4>
+                    </Link>
                     <div className="category-dropdown">
                       <ul>
                         <Link
