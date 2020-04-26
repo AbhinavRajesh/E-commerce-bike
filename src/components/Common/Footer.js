@@ -1,5 +1,8 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import image from "../assets/img/GearAdvisors.jpg";
+import imageftr from "../assets/img/ftr-logo.png";
 import logo from "../assets/img/cog.png";
 
 class Footer extends Component {
@@ -67,7 +70,98 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-          <div className="footer-bottom"></div>
+          <div className="footer-bottom">
+            <div className="bottom-top">
+              <div className="bt-parts">
+                <div className="bt-part">
+                  <h4>Customer Care</h4>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>My Account</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Order History</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Gift Card</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Wish List</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Help Desk</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Returns</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Waranty</p>
+                  </Link>
+                </div>
+                <div className="bt-part">
+                  <h4>Our Culture</h4>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Contact Us</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Store Location</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Community</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Affiliate Program</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Policies</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Accessibility</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Terms of Use</p>
+                  </Link>
+                </div>
+                <div className="bt-part">
+                  <h4>Company</h4>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>About Us</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Events</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Gear Advisors</p>
+                  </Link>
+                  <Link to="#" style={{ textDecoration: "none" }}>
+                    <p>Careers</p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="bottom-bottom">
+              <div className="punch-line">
+                <h1>Keep Pedaling</h1>
+              </div>
+              <div className="links">
+                <a href="www.facebook.com/JensonUSA">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="www.instagram.com/Jensonusa">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="www.twitter.com/JensonUSA">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+              <div className="ftr-logo">
+                <img src={imageftr} alt="JensonUSA" />
+              </div>
+            </div>
+          </div>
+          <div className="ftr-bottom-line">
+            <div className="red-line"></div>
+            <div className="black-line"></div>
+          </div>
         </footer>
       </div>
     );

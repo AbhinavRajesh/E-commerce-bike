@@ -161,6 +161,30 @@ footer {
   margin-top: 5px;
   font-weight: 600;
 }
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bt-parts {
+  display: flex;
+  margin: 50px;
+}
+.bt-part {
+  padding: 0 30px;
+  border-right: 0.5px solid white;
+}
+.bt-part h4 {
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.bt-part p {
+  font-size: 16px;
+  color: gray;
+}
 /* Home */
 .home-cover-wrapper {
   position: relative;
@@ -225,6 +249,43 @@ footer {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
+.punch-line {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links i {
+  color: gray;
+  padding: 10px;
+}
+.ftr-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 100px 0;
+}
+.ftr-bottom-line {
+  display: flex;
+}
+.red-line {
+  display: flex;
+  flex-grow: 1;
+  height: 15px;
+  width: 100%;
+  background-color: rgb(201, 0, 0);
+}
+.black-line {
+  display: flex;
+  flex-grow: 1;
+  height: 15px;
+  width: 100%;
+  background-color: gray;
 }
 
 /* Bikes Page */
