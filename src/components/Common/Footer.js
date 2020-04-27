@@ -18,7 +18,7 @@ class Footer extends Component {
               height: "60px",
               position: "absolute",
               top: "-30px",
-              left: "50%",
+              left: "48%",
             }}
           />
           <div className="footer-top">
@@ -159,8 +159,8 @@ class Footer extends Component {
             </div>
           </div>
           <div className="ftr-bottom-line">
-            <div className="red-line"></div>
             <div className="black-line"></div>
+            <div className="red-line"></div>
           </div>
         </footer>
       </div>

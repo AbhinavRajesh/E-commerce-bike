@@ -92,7 +92,7 @@ footer {
 .footer-top {
   display: flex;
   justify-content: space-between;
-  padding: 50px 50px 150px 50px;
+  padding: 70px 150px;
 }
 .footer-left {
   display: flex;
@@ -113,14 +113,18 @@ footer {
   margin-top: 10px;
 }
 .newsletter form input[type="text"] {
-  height: 30px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 15px;
 }
 .newsletter form input[type="submit"] {
   color: white;
   background-color: rgb(255, 72, 72);
   outline: none;
   border: none;
-  padding: 5px 10px;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 10px;
 }
 .contact-details i {
   font-size: 12px;
@@ -346,6 +350,7 @@ footer {
 .bike-models-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .bike-model-wrapper {
   background-color: rgb(240, 240, 240);
@@ -380,4 +385,10 @@ footer {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   padding: 20px 0;
+}
+
+/* Mountain */
+
+#bmw-margin {
+  margin: 40px;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "../Common/Header";
+import Footer from "../Common/Footer";
 import { Link } from "react-router-dom";
 
 // Images
@@ -373,7 +374,7 @@ class Bikes extends Component {
                     >
                       <div className="bike-model-wrapper">
                         <div className="bike-model-img">
-                          <img src={m5} alt="Marin San Quentin " />
+                          <img src={m11} alt="Marin San Quentin " />
                         </div>
                         <div className="bike-model-desc">
                           <div className="bike-model-name">
@@ -394,6 +395,7 @@ class Bikes extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
