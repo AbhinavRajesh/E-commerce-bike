@@ -13,7 +13,7 @@ class Header extends Component {
             style={{ backgroundImage: `url(${this.props.image})` }}
           ></div>
           <div className="hero-image-text">
-            <h2>{this.props.title}</h2>
+            <h2>{this.props.titlemain}</h2>
           </div>
         </div>
       </div>

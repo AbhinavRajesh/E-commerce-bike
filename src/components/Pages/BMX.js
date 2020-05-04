@@ -5,6 +5,7 @@ import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 
 // Images
+import image from "../assets/img/bmx-bg.jpg";
 import m6 from "../assets/img/gt-labomba-bmx.jpg";
 
 class BMX extends Component {
@@ -12,10 +13,10 @@ class BMX extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes/bmx" />
+          <Header title="bikes/bmx" titlemain="bmx" image={image} />
           <div className="bike-type-container">
             <div className="bike-type-name">
-              <h3>BMX</h3>
+              <h3 style={{ padding: "50px 0 0 50px" }}>BMX</h3>
               <div className="bike-models-wrapper">
                 <Link
                   to="/gtlabomba"

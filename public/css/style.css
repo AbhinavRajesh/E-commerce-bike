@@ -103,7 +103,7 @@ footer {
 .advisor-text p,
 .footer-right p {
   font-size: 12px;
-  margin: -10px 0 0 0;
+  margin: -8px 0 0 2px;
 }
 .advisor-text h1,
 .footer-right h1 {
@@ -387,8 +387,192 @@ footer {
   padding: 20px 0;
 }
 
-/* Mountain */
+/*Common */
 
 #bmw-margin {
   margin: 40px;
+}
+
+/* Signin Page */
+
+.sign-container {
+  display: flex;
+}
+.signin-container {
+  display: flex;
+  padding: 50px 0 0 400px;
+  flex-direction: column;
+}
+.signin-container p,
+.signup-container p,
+.signup-container ul {
+  width: 40%;
+  font-size: 12px;
+  color: gray;
+}
+.signin-container h3 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.signin-input-container {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.signin-input-container input[type="email"],
+.signin-input-container input[type="password"] {
+  width: 300px;
+  height: 40px;
+  margin: 10px 0;
+}
+.signup-container {
+  padding: 50px 400px 0 0;
+}
+.signup-container p {
+  width: 80%;
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.signup-container ul {
+  width: 80%;
+  font-size: 12px;
+  color: gray;
+  padding: 0 0 0 20px;
+  margin: 5px 0 30px 0;
+}
+
+/* Page Layout */
+
+.model-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222;
+}
+.model-size-selector,
+.model-size-selector option {
+  margin: 20px;
+  padding: 10px 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.model-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model-image img {
+  height: 400px;
+}
+.model-specification {
+  background-color: #222;
+}
+.spec-table {
+  width: 100%;
+  margin: 70px 0;
+  padding: 30px;
+}
+.spec-table tr {
+  display: flex;
+  color: white;
+  font-size: 12px;
+  padding: 4px 100px;
+}
+.spec-table h2 {
+  color: white;
+  padding: 20px 80px 40px 80px;
+  font-weight: 300;
+}
+.spec-table tr th {
+  text-align: left;
+  min-width: 500px;
+}
+.spec-table tr td {
+  font-weight: 300;
+}
+.model-mid {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  color: #222;
+}
+.model-price {
+  font-size: 24px;
+}
+.model-availability {
+  text-transform: uppercase;
+  color: rgb(39, 187, 39);
+}
+.model-description {
+  padding: 50px;
+}
+.model-description p {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+}
+.model-features {
+  padding: 50px 10px;
+}
+.model-features ul {
+  padding: 10px 100px;
+}
+.model-features h2 {
+  font-weight: 300;
+  color: #222;
+}
+.model-features ul li {
+  padding: 5px;
+}
+
+/* Create Account Page */
+.create-acc-wrapper {
+  background-color: #f7f7f7;
+}
+.create-container {
+  display: block;
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 30%;
+}
+.create-container h3 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #222;
+  text-transform: uppercase;
+}
+.create-container p {
+  font-size: 12px;
+  margin: 0 20px;
+}
+.create-container ul li {
+  font-size: 10px;
+  line-height: 18px;
+  margin: 0 40px;
+}
+.ca-form {
+  margin: 10px;
+}
+.ca-form-part {
+  display: flex;
+  flex-direction: column;
+}
+.ca-form-part label {
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+.ca-form-part input {
+  background-color: #f7f7f7;
+  width: 250px;
+  border: 1px solid gray;
+  height: 40px;
 }

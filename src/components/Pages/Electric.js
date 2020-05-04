@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 
+// Images
+import image from "../assets/img/electric-bg.jpg";
 import m7 from "../assets/img/m20-e-bike.jpg";
 import m8 from "../assets/img/m30-e-bike.jpg";
 import m9 from "../assets/img/wild-fs-h30.jpg";
@@ -14,10 +16,10 @@ class Electric extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes/electric" />
+          <Header title="bikes/electric" titlemain="electric" image={image} />
           <div className="bike-type-container">
             <div className="bike-type-name">
-              <h3>Electric</h3>
+              <h3 style={{ padding: "50px 0 0 50px" }}>Electric</h3>
               <div className="bike-models-wrapper">
                 <Link
                   to="/m20"

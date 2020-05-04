@@ -5,6 +5,7 @@ import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 
 // Images
+import image from "../assets/img/mountain-bg.jpg";
 import m1 from "../assets/img/kona-process-2019.jpg";
 import m2 from "../assets/img/kona-satori-2019.jpg";
 import m3 from "../assets/img/gt-force-2019.jpg";
@@ -16,10 +17,10 @@ class Mountain extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes/mountain" />
+          <Header title="bikes/mountain" image={image} titlemain="mountain" />
           <div className="bike-type-container">
             <div className="bike-type-name">
-              <h3>Mountain</h3>
+              <h3 style={{ padding: "50px 0 0 50px" }}>Mountain</h3>
               <div className="bike-models-wrapper">
                 <Link
                   to="/konaprocess"
@@ -46,7 +47,7 @@ class Mountain extends Component {
                   to="/konasatori"
                   style={{ textDecoration: "none", color: "#222" }}
                 >
-                  <div className="bike-model-wrapper" id="bmw-padding">
+                  <div className="bike-model-wrapper" id="bmw-margin">
                     <div className="bike-model-img">
                       <img src={m2} alt="Kona Satori" />
                     </div>
@@ -67,7 +68,7 @@ class Mountain extends Component {
                   to="/marinhawk"
                   style={{ textDecoration: "none", color: "#222" }}
                 >
-                  <div className="bike-model-wrapper" id="bmw-padding">
+                  <div className="bike-model-wrapper" id="bmw-margin">
                     <div className="bike-model-img">
                       <img src={m4} alt="Marin Hawk" />
                     </div>
@@ -88,7 +89,7 @@ class Mountain extends Component {
                   to="/gtforce"
                   style={{ textDecoration: "none", color: "#222" }}
                 >
-                  <div className="bike-model-wrapper" id="bmw-padding">
+                  <div className="bike-model-wrapper" id="bmw-margin">
                     <div className="bike-model-img">
                       <img src={m3} alt="GT Force" />
                     </div>
@@ -109,7 +110,7 @@ class Mountain extends Component {
                   to="/marinsan"
                   style={{ textDecoration: "none", color: "#222" }}
                 >
-                  <div className="bike-model-wrapper" id="bmw-padding">
+                  <div className="bike-model-wrapper" id="bmw-margin">
                     <div className="bike-model-img">
                       <img src={m5} alt="Marin San Quentin " />
                     </div>

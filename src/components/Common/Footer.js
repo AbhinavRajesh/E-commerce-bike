@@ -32,7 +32,7 @@ class Footer extends Component {
                 <br />
                 <div className="contact-details">
                   <i class="fas fa-phone-alt"></i>
-                  <p>888-880-3811</p>
+                  <p>(888) 888 - 8888</p>
                 </div>
               </div>
             </div>
