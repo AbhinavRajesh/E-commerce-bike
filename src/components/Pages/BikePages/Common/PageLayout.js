@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+import Footer from "../../../Common/Footer";
+
 class PageLayout extends Component {
   render() {
     return (
@@ -198,6 +200,7 @@ class PageLayout extends Component {
             </table>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

@@ -1,18 +1,16 @@
 import React, { Component } from "react";
-
 import PageLayout from "./Common/PageLayout";
 
-// Image
-import image from "../../assets/img/konasatori.jpg";
+import image from "../../assets/img/marinhawk.jpg";
 
-class KonaSatori extends Component {
+class MarinHawk extends Component {
   render() {
     return (
       <div>
         <PageLayout
-          model="kona satori 153"
+          model="marin hawk hill 1"
           type="mountain"
-          price="$3,499"
+          price="$1,599"
           image={image}
         />
       </div>
@@ -20,4 +18,4 @@ class KonaSatori extends Component {
   }
 }
 
-export default KonaSatori;
+export default MarinHawk;

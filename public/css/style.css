@@ -239,20 +239,39 @@ footer {
 .promotion {
   display: flex;
   flex-direction: column;
-  height: 70vh;
 }
 .promotion-top {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.promotion-left-container {
-  /* 640x360px */
+.promotion-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
 }
-.promotion-right-container {
-  flex-grow: 1;
+.promotion-right-container,
+.promotion-left-container {
+  display: flex;
+  height: 360px;
+  width: 640px;
+  background: radial-gradient(rgba(26, 25, 25, 0.925), rgb(0, 0, 0));
+  color: rgb(240, 240, 240);
+  padding: 50px;
+  justify-content: space-between;
+}
+.promotion-left-container img,
+.promotion-right-container img {
+  height: 250px;
+  width: 250px;
+}
+.helmet-promotion,
+.jersey-promotion {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 40%;
 }
 .punch-line {
   color: gray;
@@ -473,18 +492,21 @@ footer {
 .model-specification {
   background-color: #222;
 }
-.spec-table {
+.spec-table,
+.size-table {
   width: 100%;
   margin: 70px 0;
   padding: 30px;
 }
-.spec-table tr {
+.spec-table tr,
+.size-table tr {
   display: flex;
   color: white;
   font-size: 12px;
   padding: 4px 100px;
 }
-.spec-table h2 {
+.spec-table h2,
+.size-table h2 {
   color: white;
   padding: 20px 80px 40px 80px;
   font-weight: 300;
@@ -492,6 +514,14 @@ footer {
 .spec-table tr th {
   text-align: left;
   min-width: 500px;
+}
+.size-table tr th {
+  min-width: 200px;
+  text-align: left;
+}
+.size-table tr td {
+  font-weight: 300;
+  min-width: 200px;
 }
 .spec-table tr td {
   font-weight: 300;
@@ -543,19 +573,19 @@ footer {
   width: 30%;
 }
 .create-container h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 0 10px 0;
   color: #222;
-  text-transform: uppercase;
 }
 .create-container p {
   font-size: 12px;
   margin: 0 20px;
 }
 .create-container ul li {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 18px;
   margin: 0 40px;
+  color: #222;
 }
 .ca-form {
   margin: 10px;
@@ -565,14 +595,39 @@ footer {
   flex-direction: column;
 }
 .ca-form-part label {
-  padding: 10px 0;
+  padding: 5px 0;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
 }
 .ca-form-part input {
   background-color: #f7f7f7;
-  width: 250px;
-  border: 1px solid gray;
+  width: 100%;
+  border: 1px solid rgb(179, 179, 179);
   height: 40px;
+  padding: 10px;
+}
+.ca-checkbox {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+}
+.ca-checkbox input[type="checkbox"] {
+  height: 14px;
+  width: 14px;
+}
+.ca-checkbox label {
+  font-size: 12px;
+  text-transform: none;
+  color: #222;
+  padding: 0 30px;
+}
+.submit-button {
+  width: 100px;
+  margin: 20px;
+}
+.submit-button input {
+  background: #222;
+  color: white;
+  font-weight: 600;
 }

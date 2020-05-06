@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import Footer from "../../Common/Footer";
 import PageLayout from "./Common/PageLayout";
 
 // Image
@@ -16,7 +15,6 @@ class KonaProcess extends Component {
           price="$4,999"
           image={image}
         />
-        <Footer />
       </div>
     );
   }

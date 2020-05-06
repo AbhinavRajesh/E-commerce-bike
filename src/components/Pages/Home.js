@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Footer from "../Common/Footer";
 import YTVideo from "../Common/YTVideo";
 
+import image1 from "../assets/img/helmet.png";
+import image2 from "../assets/img/jersey.png";
+
 class Home extends Component {
   render() {
     return (
@@ -42,8 +45,50 @@ class Home extends Component {
                 <YTVideo />
               </div>
               <div className="promotion-bottom">
-                <div className="promotion-left-container"></div>
-                <div className="promotion-right-container"></div>
+                <div className="promotion-left-container">
+                  <div className="helmet-promotion">
+                    <h3>Helmets on sale</h3>
+                    <p>Save upto 67% on Select Helmets</p>
+                    <Link
+                      to="/helmet"
+                      style={{
+                        color: "white",
+                        textDecoration: "none",
+                        padding: "10px 20px",
+                        backgroundColor: "gray",
+                        width: "120px",
+                        margin: "20px 0",
+                        fontSize: "12px",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      Shop Now
+                    </Link>
+                  </div>
+                  <img src={image1} alt="Helmet" />
+                </div>
+                <div className="promotion-right-container">
+                  <div className="jersey-promotion">
+                    <h3>Jersey on Sale</h3>
+                    <p>Closeout Deals from TLD, Fox & More</p>
+                    <Link
+                      to="/jersey"
+                      style={{
+                        color: "white",
+                        textDecoration: "none",
+                        padding: "10px 20px",
+                        backgroundColor: "gray",
+                        width: "120px",
+                        margin: "20px 0",
+                        fontSize: "12px",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      Shop Now
+                    </Link>
+                  </div>
+                  <img src={image2} alt="Jersey" />
+                </div>
               </div>
             </div>
           </div>
