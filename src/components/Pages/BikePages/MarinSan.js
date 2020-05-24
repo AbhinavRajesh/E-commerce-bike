@@ -9,7 +9,7 @@ class MarinSan extends Component {
       <div>
         <PageLayout
           model="marin san quentin 2"
-          type="mountain"
+          type="Shop/mountain"
           price="$1,949.99"
           image={image}
         />

@@ -11,7 +11,7 @@ class KonaSatori extends Component {
       <div>
         <PageLayout
           model="kona satori 153"
-          type="mountain"
+          type="Shop/mountain"
           price="$3,499"
           image={image}
         />

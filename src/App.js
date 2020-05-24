@@ -10,6 +10,8 @@ import Jersey from "./components/Pages/Jersey";
 import Signin from "./components/Pages/Signin";
 import CreateAccount from "./components/Pages/CreateAccount";
 import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
+import Cart from "./components/Pages/Cart";
 import Bikes from "./components/Pages/Bikes";
 import Mountain from "./components/Pages/Mountain";
 import BMX from "./components/Pages/BMX";
@@ -21,6 +23,10 @@ import KonaSatori from "./components/Pages/BikePages/KonaSatori";
 import MarinHawk from "./components/Pages/BikePages/MarinHawk";
 import GTForce from "./components/Pages/BikePages/GTForce";
 import MarinSan from "./components/Pages/BikePages/MarinSan";
+import GTLabomba from "./components/Pages/BikePages/GTLabomba";
+import OrbeaM20 from "./components/Pages/BikePages/OrbeaM20";
+import OrbeaM30 from "./components/Pages/BikePages/OrbeaM30";
+import OrbeaH30 from "./components/Pages/BikePages/OrbeaH30";
 
 function App() {
   return (
@@ -40,6 +46,12 @@ function App() {
         <Route path="/marinhawk" component={MarinHawk} />
         <Route path="/gtforce" component={GTForce} />
         <Route path="/marinsan" component={MarinSan} />
+        <Route path="/gtlabomba" component={GTLabomba} />
+        <Route path="/m20" component={OrbeaM20} />
+        <Route path="/m30" component={OrbeaM30} />
+        <Route path="/h30" component={OrbeaH30} />
+        <Route path="/aboutus" component={About} />
+        <Route path="/cart" component={Cart} />
       </PageWrapper>
     </Router>
   );

@@ -9,7 +9,7 @@ class PageLayout extends Component {
       <div>
         <div className="container">
           <h5 style={{ padding: "30px 0", textTransform: "uppercase" }}>
-            Shop / {this.props.type} / {this.props.model}
+            {this.props.type} / {this.props.model}
           </h5>
           <div className="model-image">
             <img src={this.props.image} alt="konaprocess" />

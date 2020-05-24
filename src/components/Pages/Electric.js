@@ -16,7 +16,11 @@ class Electric extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes/electric" titlemain="electric" image={image} />
+          <Header
+            title="Shop/bikes/electric"
+            titlemain="electric"
+            image={image}
+          />
           <div className="bike-type-container">
             <div className="bike-type-name">
               <h3 style={{ padding: "50px 0 0 50px" }}>Electric</h3>
@@ -58,7 +62,7 @@ class Electric extends Component {
                         <h4>2019</h4>
                       </div>
                       <div className="bike-model-price">
-                        <h3>2,699.99</h3>
+                        <h3>$2,699.99</h3>
                       </div>
                     </div>
                   </div>

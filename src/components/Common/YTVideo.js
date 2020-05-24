@@ -6,8 +6,8 @@ class YTVideo extends Component {
     return (
       <div>
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=fVeC9nUSRw8"
-          width="1300px"
+          url={this.props.url}
+          width={this.props.width}
           height="500px"
         />
       </div>

@@ -75,7 +75,7 @@ class Footer extends Component {
               <div className="bt-parts">
                 <div className="bt-part">
                   <h4>Customer Care</h4>
-                  <Link to="#" style={{ textDecoration: "none" }}>
+                  <Link to="/signin" style={{ textDecoration: "none" }}>
                     <p>My Account</p>
                   </Link>
                   <Link to="#" style={{ textDecoration: "none" }}>
@@ -123,7 +123,7 @@ class Footer extends Component {
                 </div>
                 <div className="bt-part">
                   <h4>Company</h4>
-                  <Link to="#" style={{ textDecoration: "none" }}>
+                  <Link to="/aboutus" style={{ textDecoration: "none" }}>
                     <p>About Us</p>
                   </Link>
                   <Link to="#" style={{ textDecoration: "none" }}>

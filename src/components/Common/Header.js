@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <div>
         <h5 style={{ padding: "30px 0", textTransform: "uppercase" }}>
-          Shop/{this.props.title}
+          {this.props.title}
         </h5>
         <div className="hero-wrapper" style={{ position: "relative" }}>
           <div

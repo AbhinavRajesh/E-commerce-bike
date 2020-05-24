@@ -24,7 +24,7 @@ class Bikes extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes" titlemain="bikes" image={image} />
+          <Header title="Shop/bikes" titlemain="bikes" image={image} />
           <div className="container-div">
             <div className="container-left">
               <div className="shortcut">

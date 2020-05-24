@@ -11,7 +11,7 @@ class KonaProcess extends Component {
       <div>
         <PageLayout
           model="kona process 153"
-          type="mountain"
+          type="Shop/mountain"
           price="$4,999"
           image={image}
         />

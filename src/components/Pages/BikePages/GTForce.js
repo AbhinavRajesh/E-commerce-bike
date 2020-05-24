@@ -8,7 +8,7 @@ class GTForce extends Component {
     return (
       <PageLayout
         model="gt force elite"
-        type="mountain"
+        type="Shop/mountain"
         price="$3,150"
         image={image}
       />

@@ -17,7 +17,11 @@ class Mountain extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes/mountain" image={image} titlemain="mountain" />
+          <Header
+            title="Shop/bikes/mountain"
+            image={image}
+            titlemain="mountain"
+          />
           <div className="bike-type-container">
             <div className="bike-type-name">
               <h3 style={{ padding: "50px 0 0 50px" }}>Mountain</h3>

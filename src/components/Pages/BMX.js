@@ -13,7 +13,7 @@ class BMX extends Component {
     return (
       <div>
         <div className="container">
-          <Header title="bikes/bmx" titlemain="bmx" image={image} />
+          <Header title="Shop/bikes/bmx" titlemain="bmx" image={image} />
           <div className="bike-type-container">
             <div className="bike-type-name">
               <h3 style={{ padding: "50px 0 0 50px" }}>BMX</h3>

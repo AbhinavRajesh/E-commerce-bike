@@ -631,3 +631,79 @@ footer {
   color: white;
   font-weight: 600;
 }
+
+/* About */
+.about-main {
+  display: flex;
+  padding: 50px 0;
+}
+.about-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-left h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.about-left p {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.about-right img {
+  width: 400px;
+}
+.values-wrapper {
+  padding: 50px 0 100px 0;
+}
+.values-wrapper h2 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.values {
+  display: flex;
+  flex-wrap: wrap;
+}
+.value {
+  width: 50%;
+  padding: 30px;
+}
+.value h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.value p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.cart {
+  padding: 50px 0;
+}
+.cart-heading {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.cart-heading h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  padding: 0 50px 0 0;
+}
+.cart-body {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cart-body h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cart-body p {
+  font-size: 14px;
+}
