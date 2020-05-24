@@ -27,6 +27,8 @@ import GTLabomba from "./components/Pages/BikePages/GTLabomba";
 import OrbeaM20 from "./components/Pages/BikePages/OrbeaM20";
 import OrbeaM30 from "./components/Pages/BikePages/OrbeaM30";
 import OrbeaH30 from "./components/Pages/BikePages/OrbeaH30";
+import Benno10D from "./components/Pages/BikePages/Benno10D";
+import Benno9D from "./components/Pages/BikePages/Benno9D";
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
         <Route path="/m20" component={OrbeaM20} />
         <Route path="/m30" component={OrbeaM30} />
         <Route path="/h30" component={OrbeaH30} />
+        <Route path="/10d" component={Benno10D} />
+        <Route path="/ejoy9d" component={Benno9D} />
         <Route path="/aboutus" component={About} />
         <Route path="/cart" component={Cart} />
       </PageWrapper>
