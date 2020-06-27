@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../Common/Footer";
 
 class CreateAccount extends Component {
   render() {
@@ -77,6 +78,7 @@ class CreateAccount extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

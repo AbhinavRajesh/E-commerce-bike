@@ -23,7 +23,6 @@ class Home extends Component {
                     color: "white",
                     textDecoration: "none",
                     padding: "10px 20px",
-                    marginLeft: "20px",
                     backgroundColor: "gray",
                     borderRadius: "20px",
                   }}
@@ -42,10 +41,7 @@ class Home extends Component {
           <div className="home-content-wrapper">
             <div className="promotion">
               <div className="promotion-top">
-                <YTVideo
-                  url="https://www.youtube.com/watch?v=fVeC9nUSRw8"
-                  width="1300px"
-                />
+                <YTVideo url="https://www.youtube.com/watch?v=fVeC9nUSRw8" />
               </div>
               <div className="promotion-bottom">
                 <div className="promotion-left-container">

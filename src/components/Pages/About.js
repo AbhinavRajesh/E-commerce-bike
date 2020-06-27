@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 import YTVideo from "../Common/YTVideo";
@@ -40,7 +39,7 @@ const About = () => {
             <img src={aboutright} alt="quote    " />
           </div>
         </div>
-        <YTVideo url="https://youtu.be/aQ6CGU_9yHo" width="100%" />
+        <YTVideo url="https://youtu.be/aQ6CGU_9yHo" />
         <div className="values-wrapper">
           <h2>Our Core Values</h2>
           <div className="values">

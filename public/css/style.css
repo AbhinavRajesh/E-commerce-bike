@@ -66,6 +66,37 @@
   font-size: 18px;
   padding: 10px 20px;
 }
+.mobileSearch {
+  display: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.274);
+}
+.mobileSearch div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobileSearch div i {
+  padding: 10px;
+}
+.mobileSearch input {
+  outline: none;
+  border: none;
+  background: none;
+  height: 40px;
+  border-bottom: 1px solid gray;
+  padding: 0 10px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+.mobileSearchActive {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.nav-links {
+  cursor: pointer;
+}
 
 .menu {
   display: flex;
@@ -225,6 +256,9 @@ footer {
   margin-top: -20px;
   margin-bottom: 20px;
   padding-left: 10px;
+}
+.home-cover-top-text a {
+  margin-left: 20px;
 }
 .home-cover-bottom-text {
   padding: 0 50px;
@@ -706,4 +740,200 @@ footer {
 }
 .cart-body p {
   font-size: 14px;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1200px) {
+  /* Page Wrapper */
+  .nav-top {
+    padding: 0;
+  }
+  .guidance,
+  .signin {
+    font-size: 12px;
+  }
+  .ship-details {
+    font-size: 14px;
+  }
+  .nav-bottom {
+    justify-content: space-around;
+    margin: 0 50px;
+    padding: 0 0 10px 0;
+  }
+  .menu {
+    height: 4vh;
+  }
+  /* Home */
+  .home-cover-top-text {
+    padding: 300px 50px;
+  }
+  .search-bar input {
+    width: 400px;
+  }
+  .promotion-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .promotion-left-container,
+  .promotion-right-container {
+    margin: 10px 0;
+  }
+  /* Footer */
+  .footer-top {
+    padding: 70px 50px;
+  }
+  .footer-top h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .newsletter form input[type="text"] {
+    width: 200px;
+    font-size: 14px;
+  }
+  .footer-mid {
+    padding: 15px 50px;
+  }
+  .feature h1 {
+    font-size: 24px;
+    margin: -15px 0;
+  }
+  .feature h2 {
+    font-size: 14px;
+  }
+  .feature p {
+    font-size: 12px;
+  }
+  /* Bikes */
+  .container {
+    padding: 0 50px;
+  }
+  .container-left {
+    display: none;
+  }
+  .container-right {
+    margin: 40px 0;
+  }
+  .bike-models-wrapper {
+    justify-content: space-around;
+  }
+  #bmw-margin {
+    margin: 20px 0;
+  }
+  .spec-table tr th {
+    min-width: 200px;
+  }
+  /* About Page */
+  .about-main {
+    flex-direction: column;
+  }
+  .about-right {
+    justify-content: flex-end;
+  }
+  /* SignIn Page */
+  .sign-container {
+    padding: 0 30px;
+    justify-content: center;
+  }
+  .signin-container {
+    padding: 50px 10px 50px 50px;
+    flex: 1 1;
+  }
+  .signup-container {
+    padding: 50px 50px 50px 10px;
+    flex: 1 1;
+  }
+  .create-container {
+    width: 50%;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  /* Page Wrapper  */
+  .nav-top {
+    padding: 0 10px;
+  }
+  .guidance,
+  .signin {
+    font-size: 8px;
+    font-weight: 900;
+  }
+  .ship-details {
+    display: none;
+  }
+  .search-bar input {
+    display: none;
+  }
+  .nav-bottom {
+    justify-content: space-around;
+    margin: 5px;
+  }
+  .logo {
+    width: 84px;
+    height: 48px;
+  }
+  /* Home Page */
+  .home-cover-top-text {
+    padding: 50px 20px;
+  }
+  .home-cover-top-text h1 {
+    font-size: 30px;
+  }
+  .home-cover-top-text p {
+    margin-top: -10px;
+    padding: 0;
+  }
+  .home-cover-top-text a {
+    margin-left: 0;
+  }
+  .home-cover-bottom-text {
+    padding: 0 20px;
+  }
+  .promotion-left-container,
+  .promotion-right-container {
+    flex-direction: column-reverse;
+    padding: 20px;
+    width: auto;
+    height: auto;
+  }
+  .helmet-promotion,
+  .jersey-promotion {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  /* Footer */
+  .footer-top {
+    padding: 50px 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .advisor-text {
+    padding: 0 0 0 20px;
+  }
+  .advisor-text h1 {
+    font-size: 18px;
+  }
+  .footer-mid {
+    padding: 15px 20px;
+  }
+  .features {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .feature {
+    padding: 10px 5px;
+  }
+  .bt-parts {
+    flex-direction: column;
+  }
+  .bt-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    margin: 20px 0;
+  }
 }

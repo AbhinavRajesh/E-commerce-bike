@@ -17,8 +17,9 @@ class Footer extends Component {
             style={{
               height: "60px",
               position: "absolute",
-              top: "-30px",
-              left: "48%",
+              top: "0%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
             }}
           />
           <div className="footer-top">

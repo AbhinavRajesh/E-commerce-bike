@@ -26,7 +26,7 @@ class PageLayout extends Component {
                 <option value="XL">XL</option>
               </select>
               <Link
-                to="#"
+                to="/cart"
                 style={{
                   textDecoration: "none",
                   color: "white",

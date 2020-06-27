@@ -1,14 +1,22 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
 
+let factor = 5;
+
 class YTVideo extends Component {
   render() {
     return (
-      <div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <ReactPlayer
           url={this.props.url}
-          width={this.props.width}
-          height="500px"
+          width={`${factor * 16}vw`}
+          height={`${factor * 8}vw`}
         />
       </div>
     );
