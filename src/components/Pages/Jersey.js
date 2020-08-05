@@ -39,20 +39,22 @@ class Jersey extends Component {
           <div className="model-specification">
             <table className="size-table">
               <h2>SIZE TABLE</h2>
-              <tr>
-                <th>SIZE(IN)</th>
-                <th>SMALL</th>
-                <th>MEDIUM</th>
-                <th>LARGE</th>
-                <th>EXTRA LARGE</th>
-              </tr>
-              <tr>
-                <th>CHEST</th>
-                <td>34-35</td>
-                <td>36-38</td>
-                <td>40-42</td>
-                <td>44-46</td>
-              </tr>
+              <div>
+                <tr>
+                  <th>SIZE(IN)</th>
+                  <th>SMALL</th>
+                  <th>MEDIUM</th>
+                  <th>LARGE</th>
+                  <th>EXTRA LARGE</th>
+                </tr>
+                <tr>
+                  <th>CHEST</th>
+                  <td>34-35</td>
+                  <td>36-38</td>
+                  <td>40-42</td>
+                  <td>44-46</td>
+                </tr>
+              </div>
             </table>
           </div>
         </div>

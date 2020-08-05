@@ -43,20 +43,22 @@ class Helmet extends Component {
           <div className="model-specification">
             <table className="size-table">
               <h2>SIZE TABLE</h2>
-              <tr>
-                <th>SIZE(CM)</th>
-                <th>SMALL</th>
-                <th>MEDIUM</th>
-                <th>LARGE</th>
-                <th>EXTRA LARGE</th>
-              </tr>
-              <tr>
-                <th>HEAD CIRCUMFERENCE</th>
-                <td>55-56</td>
-                <td>57-59</td>
-                <td>59-60</td>
-                <td>60-62</td>
-              </tr>
+              <div>
+                <tr>
+                  <th>SIZE(CM)</th>
+                  <th>SMALL</th>
+                  <th>MEDIUM</th>
+                  <th>LARGE</th>
+                  <th>EXTRA LARGE</th>
+                </tr>
+                <tr>
+                  <th>HEAD CIRCUMFERENCE</th>
+                  <td>55-56</td>
+                  <td>57-59</td>
+                  <td>59-60</td>
+                  <td>60-62</td>
+                </tr>
+              </div>
             </table>
           </div>
         </div>

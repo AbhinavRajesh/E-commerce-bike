@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import Footer from "../Common/Footer";
 import YTVideo from "../Common/YTVideo";
 
-import image1 from "../assets/img/helmet.png";
-import image2 from "../assets/img/jersey.png";
+import image1 from "../assets/img/mainhelmet.png";
+import image2 from "../assets/img/mainjersey.png";
 
 class Home extends Component {
   render() {
