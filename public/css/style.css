@@ -936,6 +936,12 @@ footer {
   .cart-body {
     text-align: center;
   }
+  /* Create Account  */
+  .create-container {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+  }
   /* About */
   .about-right img {
     width: 300px;
